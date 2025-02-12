@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding: 2rem;
+    background-color: #282c34;
+    color: #ffffff;
+    width: 100vw; /* Set the width to the full viewport width */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  }
+  
+  .quick-links, .follow-us, .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quick-links ul, .follow-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quick-links li, .follow-us li {
+    margin: 0.5rem 0;
+  }
+  
+  .quick-links a, .follow-us a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .subscription form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subscription input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.5rem;
+  }
+  
+  .subscription button {
+    padding: 0.5rem 1rem;
+    background-color: #61dafb;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .subscription button:hover {
+    background-color: #21a1f1;
+  }
+  
